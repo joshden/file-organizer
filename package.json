@@ -1,0 +1,15 @@
+{
+  "name": "file-organizer",
+  "version": "1.0.0",
+  "description": "List, find duplicates, organize files from multiple disks and file systems",
+  "repository": "https://github.com/joshden/file-organizer.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Josh Hayden <joshden@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "readdirp": "^2.1.0"
+  }
+}
