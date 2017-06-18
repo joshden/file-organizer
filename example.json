@@ -1,0 +1,58 @@
+{
+    "file-organizer": "1.0.0",
+    "physicalDevices": [
+        {
+            "id": "1",
+            "serialNumber": "1G3294GFA051",
+            "modelNumber": "3423",
+            "manufacturer": "Seagate",
+            "dateManufactured": "2013-04-12",
+            "capacityBytes": 1000000000000,
+            "partitions": [
+                {
+                    "number": 1,
+                    "start": 2048,
+                    "end": 3074047,
+                    "sectors": 3072000,
+                    "fileSystem": {
+                        "label": "root",
+                        "type": 7,
+                        "desc": "HPFS/NTFS/exFAT",
+                        "sizeBytes": 1500000000,
+                        "contents": {
+                            "home": {
+                                "type": "directory",
+                                "contents": {
+                                    "josh": {
+                                        "type": "directory",
+                                        "contents": {
+                                            "largeFile.wav": {
+                                                "type": "file",
+                                                "size": 1579189292,
+                                                "sizeOnDisk": 1579192320,
+                                                "modified": "2016-08-27T17:09:43Z"
+                                            },
+                                            "smallFile": {
+                                                "type": "file",
+                                                "size": 584,
+                                                "sizeOnDisk": 4096,
+                                                "modified": "2017-06-18T02:45:23Z"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "initrd.img": {
+                                "type": "file",
+                                "size": 12341245,
+                                "sizeOnDisk": 12341248
+                            }
+                        }
+
+                    }
+                }
+            ]
+
+        }
+    ]
+}
