@@ -10,6 +10,7 @@
   "author": "Josh Hayden <joshden@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "jsonfile": "^3.0.1",
     "readdirp": "^2.1.0"
   }
 }
